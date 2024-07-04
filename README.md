@@ -2,7 +2,7 @@
 
 ## 算法介绍
 一个创新结合深度学习技术与望远镜模拟技术的星系图像复原算法。通过训练深度学习模型，能够智能处理受噪声和模糊影响的天体图像。  
-![算法框图](images/method1.png]
+![算法框图](images/method1.png)
 
 
 ## 算法结果
@@ -42,14 +42,7 @@
       step 1. 准备数据集：确保你有适当格式和标注的星系图像数据集。    
           dataset: 
                   不同等级的数据放在不同的文件夹中，组织形式如下所示：
-                       ./data/  ----->/0/ ---->   image0.jpg
-                               |         |
-                               |          --->  image1.jpg
-                               |
-                                --> /1/   ---->   image0.jpg
-                                         |
-                                          --->  image1.jpg
-      
+                  ![文件组织形式](images/data.png) 
       step 2. 训练模型：运'active_learning_dataset/train.py'脚本开始训练深度学习模型。  
       step 3. 复原图像：使用'active_learning_dataset/restore.py'脚本和预训练的模型来复原新的星系图像。  
 ## 使用MPI
