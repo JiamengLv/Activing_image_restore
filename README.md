@@ -43,11 +43,11 @@
 3. 安装依赖项：`pip install -r requirements.txt`  
   
 ## 使用指南  
-## 不使用MPI
-   主要应用于长曝光数据，即可变参数的某个值对应生成的数据都一样并且生成数据不会浪费过多时间。采用的方法 一次生成所有数据集，每个epoch调整每个等级所用于训练的数据
-      step 1. 准备数据集：确保你有适当格式和标注的星系图像数据集。    
-      step 2. 训练模型：运'active_learning_dataset/train.py'脚本开始训练深度学习模型。  
-      step 3. 复原图像：使用'active_learning_dataset/restore.py'脚本和预训练的模型来复原新的星系图像。
+## 不使用MPI（主要应用于长曝光数据，即可变参数的某个值对应生成的数据都一样并且生成数据不会浪费过多时间。采用的方法 一次生成所有数据集，每个epoch调整每个等级所用于训练的数据）
+   
+    step 1. 准备数据集：确保你有适当格式和标注的星系图像数据集。    
+    step 2. 训练模型：运'active_learning_dataset/train.py'脚本开始训练深度学习模型。  
+    step 3. 复原图像：使用'active_learning_dataset/restore.py'脚本和预训练的模型来复原新的星系图像。
       
     dataset的组织形式: 
             不同等级的数据放在不同的文件夹中，组织形式如下所示：
