@@ -52,8 +52,8 @@
     step 2. 训练模型：运'active_learning_dataset/train.py'脚本开始训练深度学习模型。  
     step 3. 复原图像：使用'active_learning_dataset/restore.py'脚本和预训练的模型来复原新的星系图像。
       
-    dataset的组织形式: 
-            不同等级的数据放在不同的文件夹中，组织形式如下所示：
+  dataset的组织形式: 
+      不同等级的数据放在不同的文件夹中，组织形式如下所示：
   ![文件组织形式](images/data.jpg) 
     
 ## 使用MPI
