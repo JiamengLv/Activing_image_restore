@@ -54,7 +54,7 @@
       
     dataset的组织形式: 
             不同等级的数据放在不同的文件夹中，组织形式如下所示：
-            ![文件组织形式](images/data.jpg) 
+  ![文件组织形式](images/data.jpg) 
     
 ## 使用MPI
       step 0.配置MPI环境。(https://python-parallel-programmning-cookbook.readthedocs.io/zh_CN/latest/)
