@@ -61,5 +61,7 @@
       step 1.修改'active_learning_MPi/data_dispatch.py' 分布式生成数据的程序
       step 2. 训练模型：运行'active_learning_MPi/train.py'脚本开始训练深度学习模型。  
       step 3. 复原图像：使用'active_learning_MPi/restore.py'脚本和预训练的模型来复原新的星系图像。
-    
-  
+
+## 论文链接
+本项目相关的研究论文如下：
+    [Image restoration with point-spread function regularization and active learning](https://academic.oup.com/mnras/article/527/3/6581/7339777?login=false)
